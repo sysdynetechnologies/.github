@@ -1,6 +1,10 @@
 name: '✅ Node.js Verify PR'
 description: 'Verify Node.js project'
 
+inputs:
+  token:
+    description: Auth Token for GitHub Packages
+
 permissions:
   contents: read
   pull-requests: write
@@ -11,6 +15,8 @@ runs:
     - uses: git-town/action@v1.2.0
     - uses: actions/checkout@v4
     - uses: sysdynetechnologies/.github/actions/node-install@master
+      with:
+        token: ${{ inputs.token }}
     - run: pnpm lint
       shell: bash
     - run: pnpm test
