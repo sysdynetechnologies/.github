@@ -1,0 +1,16 @@
+name: '✅ Node.js Verify PR'
+description: 'Verify Node.js project'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+runs:
+  using: 'composite'
+  steps:
+    - uses: git-town/action@v1.2.0
+    - uses: actions/checkout@v4
+    - uses: sysdynetechnologies/.github/actions/node-install@master
+    - run: pnpm lint
+    - run: pnpm test
+    - run: pnpm build
