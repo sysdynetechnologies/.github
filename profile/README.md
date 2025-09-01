@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://sysdynetechnologies.com/" target="blank"><img src="https://sysdynetechnologies.com/hubfs/sysdyne/images/sysdyne-footer-logo.svg" width="200" alt="Sysdyne Logo" /></a>
+  <a href="https://sysdynetechnologies.com/" target="blank"><img src="https://sysdynetechnologies.com/hubfs/Logo.svg" width="200" alt="Sysdyne Logo" /></a>
 </p>
 
 <h1 align="center">Ready-Mix. Simplified.</h1>
