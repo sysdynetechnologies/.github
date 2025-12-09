@@ -1,4 +1,4 @@
-# See https://www.git-town.com/configuration-file for details
+# See https://www.git-town.com/configuration.html for details
 
 [branches]
 main = "master"
